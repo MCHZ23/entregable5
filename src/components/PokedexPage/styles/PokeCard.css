@@ -1,0 +1,106 @@
+.pokecard{ 
+    width: 100%;
+    max-width: 450px;
+    border-radius: 0.7em;
+    border: 0.7em solid #ccc ;
+    cursor: pointer;
+    transition: transform 150ms ease;
+}
+.pokecard:hover{ 
+    transform: scale(1.03);
+}
+.pokecard__header { 
+    background-color: #999;
+    aspect-ratio: 2;
+    position: relative;
+}
+.pokecard__image{ 
+    position: absolute;
+    width: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 1.5em;
+}
+.pokecard__body{ 
+    padding: 3.5em 1em 2em;
+}
+.pokecard__name{ 
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.6em;
+    font-weight: 400;
+    margin-bottom: 0.2EM;
+}
+.pokecard__types{
+    display: flex; 
+    justify-content: center;
+    gap: 0.7em;
+    margin-bottom: 1EM;
+}
+.pokecard__typename{ 
+    text-transform: capitalize;
+}
+.pokecard__typename:nth-child(2)::before{ 
+    content:'/';
+    padding-right: 0.7em;
+}
+.pokecard__hr{ 
+    margin-bottom: 1em;
+    border: 1px solid #ccc4;
+}
+.pokecard__stats{ 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 1.5em 0.2em;
+}
+.pokecard__stats__url{ 
+    display: grid;
+    gap: 0.5em;
+    justify-items: center;
+}
+.pokecard__stats__name{ 
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.pokecard__stats__value{ 
+    font-weight: 500;
+    font-size: 1rem;
+}
+.fire-gradient { 
+    background: linear-gradient(176.37deg, #f9606f -32.26%, #E35825 22.55%, #E8AE18 125.72% );
+}
+.grass-gradient { 
+    background: linear-gradient(178.92deg, #7EC6C5 0.92%, #ABDAC6 47.96%, #CAE099 99.08% );
+}
+.water-gradient { 
+    background: linear-gradient(179.57deg, #133258 -70.14%, #1479FB 56.16%, #82B2F1 214.85% );
+}
+.bug-gradient { 
+    background: linear-gradient(117.56deg, #62DB60 -58.92%, #3BB039 16.57%, #AAFFA8 209.53% );
+}
+.fire-border{ 
+    border-color: #b0594e;
+}
+.water-border{ 
+    border-color: #4e5db0;
+}
+.grass-border{ 
+    border-color: #75d3db;
+}
+.bug-border{ 
+    border-color: #6bc986;
+}
+.fire-color{ 
+    color: #b0594e;
+}
+.water-color{ 
+    color: #4e5db0;
+}
+.grass-color{ 
+    color: #75d3db;
+}
+.bug-color{ 
+    color: #6bc986;
+}

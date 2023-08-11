@@ -1,0 +1,617 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@300;400;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+html{ 
+   font-family: 'Roboto', sans-serif;
+}
+*{ 
+    box-sizing: border-box;
+}
+body{ 
+    margin: 0;
+}
+h1 h3, h4, p, ul, hr { 
+margin-top: 0;
+margin-bottom: 0;
+}
+ul{ 
+    padding-left: 0;
+    list-style: none;
+}
+img{ 
+    width: 100%;
+    display: block;
+}
+input { 
+    font-family: inherit;
+    outline: none;
+    height: 31px;
+    padding-top: 3px;
+}
+button{ 
+    font-family: inherit;
+    cursor: pointer;
+}
+.main__leaf { 
+    position: relative;
+    text-align: center;
+    font-size: 100px;
+    margin: 20px;
+    margin-top: 2em;
+}
+.button__style{
+    font-size: 20px;
+    margin-top: 3em;
+ }
+ .button2__style{
+    font-size: 30px;
+    background-color: rgb(183, 69, 69);
+    color: rgb(209, 229, 247);
+    height: 3em;
+    border: none;
+ }
+ .input__style{
+    font-size: 30px;
+    height: 3em;
+    border: none;
+    background-color: rgb(227, 237, 245);
+  }
+  .h2__style{ 
+    color: brown;
+    font-size: 80px;
+  }
+  .p__style{ 
+    font-size: 50px;
+   }
+  .div__style{
+    background-color: rgba(41, 86, 199, 0.807);
+    color: rgb(41, 86, 199);
+    padding: 2.4em;
+    margin-top: 14em;
+    
+   }
+   .div__style2{
+    background-color: rgb(30, 38, 38);
+    color: rgb(30, 38, 38);
+    padding: 1em;
+    margin-top: -10px;
+   }
+   .radius__style{ 
+    position: absolute;
+    bottom: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(13, 14, 14);
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+   }
+   .radius__style2{ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(238, 246, 246);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+   }
+   .radius__style3{ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(13, 14, 14);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+   }
+   .radius__style4{ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(57, 78, 78);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+   }
+.h1__style{ 
+  font-family: 'Press Start 2P', inherit;
+  color: #bfd9ed;
+
+  text-shadow: 3px 3px 20px #d03482,
+  -2px 1px 30px #ff99cc;
+  margin-top: -1em;
+}
+/* PokedexPage.css*/
+.cards__container{ 
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card__style{ 
+    background-color: rgba(41, 86, 199, 0.807);
+    color: rgb(41, 86, 199);
+    padding: 55px;
+}
+.card_style2{ 
+    background-color: rgb(71, 86, 86);
+    color: rgb(30, 38, 38);
+    padding: 25px;
+}
+.welcome__style{ 
+    color: #3606c5;
+}
+.pwelcome__style{ 
+    font-size: 30px;
+    margin-top: 1em;
+    margin-left: 5em;
+}
+.cardform__style{
+    font-size: 20px;
+    margin-top: 3em;
+    margin-left: 8em;
+ }
+.cardbutton__style{
+    font-size: 30px;
+    background-color: rgb(183, 69, 69);
+    color: rgb(209, 229, 247);
+    height: 3em;
+    width: 10em;
+    border: none;
+ }
+.cardinput__style{
+    font-size: 30px;
+    height: 3em;
+    border: none;
+    background-color: rgb(227, 237, 245);
+    width: 20em;
+ }
+  /* SelectType.css*/
+
+
+.allpokemon__style{ 
+    margin-left: 75%;
+    width: 15em;
+    height: 3.8em;
+    position: relative;
+    bottom: 3.8em;
+    border: none;
+    background-color: #dee9f1;
+ }
+.radius__style1L{ 
+  position: absolute;
+  bottom: -6px;
+  transform: translateX(-47%);
+  background-color: rgb(13, 14, 14);
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  top: 8%;
+  left: 90%;
+ }
+.radius__style2L{ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(238, 246, 246);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+ }
+.radius__styleL3{ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(13, 14, 14);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+ }
+.radius__style4L{ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(57, 78, 78);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+ }
+
+
+
+
+
+   /* PokeIdPage.css*/
+
+.weight__style{ 
+  left: 6em;
+  top: 0em;
+  position: absolute;
+}
+.span__style{
+    position: absolute;
+    top: 16em;
+    left: 13.5em;
+}
+
+
+.details__style{ 
+    font-size: 30px;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 43%;
+}
+
+.first__style{ 
+    display: flex;
+}
+
+
+
+.gap__style { 
+    margin: 2em;
+}
+.gap2__style { 
+    margin: 2em;
+    
+}
+.othert__style{ 
+    position: absolute;
+    top: 42em;
+    width: 34em;
+}
+
+
+
+
+
+
+/* Add these styles for the progress bars */
+.stat__bar {
+    display: flex;
+    align-items: center;
+    margin-top: 1em;
+    width: 34.6em;
+    padding-left: 0.5em;
+  }
+  
+  .stat__label {
+    font-size: 1em;
+    width: 100px;
+  }
+  
+  .stat__progress {
+    flex: 1;
+    height: 2em;
+  }
+  
+  .stat__value {
+    font-size: 1em;
+    margin-left: 1em;
+  }
+
+  /*STAT2*/
+
+  .stat2__bar {
+    display: flex;
+    align-items: center;
+    /* margin-top: 1em; */
+    position: absolute;
+    top: 44em;
+    width: 34em;
+    left: -2.3em;
+    margin: 3em;
+  }
+  
+  .stat2__label {
+    font-size: 1em;
+    width: 100px;
+  }
+  
+  .stat2__progress {
+    flex: 1;
+    height: 2em;
+  }
+  
+  .stat2__value {
+    font-size: 1em;
+    margin-left: 0em;
+  }
+
+
+
+ /* STAT3*/
+
+ .stat3__bar {
+    display: flex;
+    align-items: center;
+    /* margin-top: 1em; */
+    position: absolute;
+    top: 47.5em;
+    width: 34em;
+    left: -2.3em;
+    margin: 3em;
+  }
+  
+  .stat3__label {
+    font-size: 1em;
+    width: 100px;
+
+  }
+  
+  .stat3__progress {
+    position: relative;
+    flex: 1;
+    left: 1em;
+    height: 2em;
+  }
+  
+  .stat3__value {
+    font-size: 1em;
+    margin-left: 1em;
+  }
+
+
+  .stat4__bar {
+    display: flex;
+    align-items: center;
+    /* margin-top: 1em; */
+    position: absolute;
+    top: 51.5em;
+    width: 34em;
+    left: -2.3em;
+    margin: 3em;
+  }
+  
+  .stat4__label {
+    font-size: 1em;
+    width: 100px;
+
+  }
+  
+  .stat4__progress {
+    position: relative;
+    flex: 1;
+    left: 1em;
+    height: 2em;
+
+  }
+  
+.stat4__value {
+  font-size: 1em;
+  margin-left: 1em;
+}
+.pokédex1__style{ 
+  margin-top: -2em;
+  font-size: 5em;
+  font-family: 'Press Start 2P', inherit;
+  color: #9fc8e8;
+  text-shadow: 3px 3px 20px #f4c6dd,
+  -2px 1px 30px #ede4e8;
+}
+.radius31__style3{ 
+  position: absolute;
+    bottom: 2px;
+    transform: translateX(-50%);
+    background-color: rgb(13, 14, 14);
+    width: 163px;
+    height: 156px;
+    border-radius: 50%;
+    top: 9%;
+    left: 90%;
+}
+.radius32__style3{ 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-48%, -50%);
+  background-color: rgb(238, 246, 246);
+  width: 128px;
+  height: 130px;
+  border-radius: 50%;
+}
+.radius33__style3{ 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(13, 14, 14);
+  width: 85px;
+  height: 84px;
+  border-radius: 50%;
+}
+
+
+
+
+  
+.letter__progress {
+    position: absolute;
+    top: 10em;
+    left: 5em;
+}
+
+
+.letter__style{ 
+    position: absolute;
+    top: 35em;
+    left: 5em;
+}
+.stat__container{ 
+    position: absolute;
+    top: 1em;
+    left: 2em;
+}
+
+.hp1__style{ 
+display: flex;
+gap: 2em;
+}
+.attack__style{ 
+ display: flex;
+ gap: 2em;
+}
+.defence__style{ 
+  display: flex;
+  gap: 2em;
+}
+.speed__style{ 
+display: flex;
+ gap: 2em;
+}
+
+.hr2__style{ 
+    
+    bottom: 19.3%;
+    width: 10em;
+    position: absolute;
+    transform: translate(-97%, -562%);
+}
+.hr__style{ 
+    margin-left: 20em;
+    bottom: 4.3%;
+    width: 10em;
+    position: absolute;
+    transform: translate(-71%, -867%);
+ }
+.movement__style{ 
+  background-color: rgb(132, 202, 202);
+  font-size: 36px;
+  width: 59.4%;
+  position: absolute;
+  transform: translate(33%, 146%);
+  text-align: center;
+}
+.list__style{ 
+  background-color: rgb(171, 171, 186);
+    width: 12em;
+    border-radius: 45px;
+    padding-top: 10px;
+    margin-left: 9em;
+    font-family: math;
+}
+.id__style{ 
+    position: absolute;
+    top: 7em;
+    font-size: 45px;
+    background-color: #dfe7ed;
+    width: 3em;
+    margin-left: 11.5em;
+    margin-top: 40px;
+    padding: 10px;
+}
+.background__style{ 
+    position: absolute;
+    transform: translate(0.6%, 191%);
+    width: 39.4em;
+    background-color: #2b5575;
+    color: #2b5575;
+    height: 8em;
+    margin-top: -165.7%;
+    border-radius: 1em 1em 0 0;
+ }
+.div0__style{ 
+    color: #e8edf1;
+    padding: 8em;
+    margin: 17em;
+ }
+.container__style{ 
+    
+    background-color: rgb(234, 252, 252);
+    position: absolute;
+    height: 62em;
+    top: 30%;
+    left: 50%;
+    transform: translate(-51%, 6%);
+    padding-top: 10;
+    width: 40em;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 1em 1em 0 0;
+}
+.name__style{ 
+    font-size: 70px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    
+}
+.height__style{ 
+    
+  position: absolute;
+  top: 21em;
+  font-size: 0.8em;
+  gap: 4em;
+  left: 14.2em;
+  /* margin-left: 190px; */
+  margin-bottom: 2em;
+  font-size: 32px;
+    
+}
+
+.gap2__style{ 
+
+}
+.type__style{ 
+  position: absolute;
+  top: 23.3em;
+  left: 4em;
+  font-size: 32px;
+}
+.ability__style{ 
+    position: absolute;
+    top: 23.4em;
+    left: 22em;
+    font-size: 32px;
+  }
+.h3__style {
+    margin-top: 1em;
+    padding-right: 18em;
+  }
+
+.ul__style {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-left: 0;
+    list-style: none;
+  }
+.ul__style li {
+  margin: 8px;
+  margin-left: 8em;
+  margin-top: 2em;
+}
+  
+.imgpokemon__style{ 
+    max-width: 400px;
+    width: 100%;
+    position: absolute;
+    top: -9%;
+    left: 50%;
+    transform: translate(-50%, 0);  
+  }
+  .h22__style{ 
+    background-color: #2b5575;
+  }
+  .div12__style{ 
+    position: absolute;
+    transform: translate(194%, -979%);
+    background-color: aqua;
+    width: 2em;
+    }
+    .lower__style{ 
+      background-color: rgb(30, 38, 38);
+      color: rgb(30, 38, 38);
+      height: 6em;
+      margin-top: 8em;
+    }
+    .upper__style{ 
+      background-color: rgba(41, 86, 199, 0.807);
+      color: rgb(41, 86, 199);
+      height: 11em;
+    }
